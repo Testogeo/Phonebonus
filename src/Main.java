@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int Myschet = 100;     // Объявляете переменные для входных данных и
-        int popolnenie = 1100; // параметров программы: начального счёта,
-        int K = 100 ;               // суммы пополнения и тп
-        int bonus = popolnenie/K;
+        int myschet = 100;     // Объявляете переменные для входных данных и
+        int fullness = 1100; // параметров программы: начального счёта,
+        int edge = 100;               // суммы пополнения и тп
+        int bonus = fullness / edge;
 
-        if (popolnenie >= 1000) {
-            System.out.println("Ваш счет пополнен и добавлен бонус:" + (Myschet + popolnenie + bonus));
+        if (fullness > 1000) {
+            System.out.println("Ваш счет пополнен и добавлен бонус:" + (myschet + fullness + bonus));
         } else {
-            System.out.println("Ваш счет пополнен:" + (Myschet + popolnenie));
+            System.out.println("Ваш счет пополнен:" + (myschet + fullness));
         }
         // Условным оператором проверяете, превысила ли
         // сумма пополнения порог, и для этих двух разных
